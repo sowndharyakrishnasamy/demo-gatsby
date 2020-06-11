@@ -5,32 +5,3 @@
  */
 
 // You can delete this file if you're not using it
-
-exports.createPages = async ({ actions, graphql, reporter }) => {
-    const { createPage } = actions
-  
-    const result = await graphql(`
-      {
-        allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
-          limit: 1000
-        ) {
-          edges {
-            node {
-              frontmatter {
-                slug
-              }
-            }
-          }
-        }
-      }
-    `)
-  console.log(result)
-    // Handle errors
-    if (result.errors) {
-      reporter.panicOnBuild(`Error while running GraphQL query.`)
-      return
-    }
-  
-    
-  }
