@@ -221,6 +221,7 @@ span.gatsby-resp-image-wrapper{
     margin:0px;
     position: absolute;
     top:125px;
+    width:240px;
 }
 .main-nav >ul> li> ol:first-child{
     width:250px;
