@@ -14,7 +14,7 @@ const FooterBanner = () => {
     )   
     return (
         <div className="footer-banner">
-             <div class="container-max-width" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}/>
+             <div className="container-max-width" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}/>
         </div>
     )
 }

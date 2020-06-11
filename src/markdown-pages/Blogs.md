@@ -14,7 +14,7 @@ desc: "Blogs with heading"
 <div class="blog-wrapper">
 <div>
 
-![Blog](../images/blog.PNG)
+[![Blog](../images/blog.PNG)](#)
 <div>
 
 #####Blog
@@ -23,7 +23,7 @@ desc: "Blogs with heading"
 </div>
 <div>
 
-![Blog](../images/blog.PNG)
+[![Blog](../images/blog.PNG)](#)
 <div>
 
 #####Blog
@@ -31,7 +31,7 @@ desc: "Blogs with heading"
 </div></div>
 <div>
 
-![Blog](../images/blog.PNG)
+[![Blog](../images/blog.PNG)](#)
 <div>
 
 #####Blog

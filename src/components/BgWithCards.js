@@ -14,7 +14,7 @@ const BgWithCards = () => {
     )   
     return (
         <div className="investment-wrapper padding-50 bottom-50">
-          <div class="container-max-width"  dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}/>
+          <div className="container-max-width"  dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}/>
         </div>
     )
 }

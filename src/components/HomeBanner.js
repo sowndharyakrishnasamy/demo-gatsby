@@ -13,9 +13,8 @@ const HomeBanner = () => {
     }` 
     )   
     return (
-      
         <div className="home-banner bottom-50" >
-          <div class="container-max-width">
+          <div className="container-max-width">
             <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}/>
           </div>
         </div>
